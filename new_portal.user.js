@@ -11,7 +11,6 @@
 this.$ = this.jQuery = jQuery.noConflict(true);
 
 $(function() {
-	//sample edit
 	var embed = $('embed');
 	embed.parents('tr').remove();
 	var contentWidth = $('body > table').width() > 835 ? 1054 : 835;
